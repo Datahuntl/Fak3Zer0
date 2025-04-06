@@ -1,6 +1,11 @@
 # Fak3Zer0
 DeepFake detector, utilizing Machine learning algorithm(s)
 
+## Datasets
+[Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data)
+[Kaggle Celeb DF (v2)](https://www.kaggle.com/datasets/reubensuju/celeb-df-v2)
+[WildDeepfake: A Challenging Real-World Dataset for Deepfake Detection](https://github.com/OpenTAI/wild-deepfake)
+
 ## Selecting an Architectural Model
 ### 3D Convolutional Neural Networks (3D CNNs)
 Unlike 2D CNNs that operate on individual frames, 3D CNNs apply 3D convolutional filters that can learn spatiotemporal features directly from a sequence of video frames. The filters move across the spatial dimensions (height and width) and the temporal dimension (number of frames).
