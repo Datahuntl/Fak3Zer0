@@ -2,9 +2,9 @@
 DeepFake detector, utilizing Machine learning algorithm(s)
 
 ## Datasets
-[Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data)
-[Kaggle Celeb DF (v2)](https://www.kaggle.com/datasets/reubensuju/celeb-df-v2)
-[WildDeepfake: A Challenging Real-World Dataset for Deepfake Detection](https://github.com/OpenTAI/wild-deepfake)
+[Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data) <br>
+[Kaggle Celeb DF (v2)](https://www.kaggle.com/datasets/reubensuju/celeb-df-v2) <br>
+[WildDeepfake: A Challenging Real-World Dataset for Deepfake Detection](https://github.com/OpenTAI/wild-deepfake) <br>
 
 ## Selecting an Architectural Model
 ### 3D Convolutional Neural Networks (3D CNNs)
