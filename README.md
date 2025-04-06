@@ -2,14 +2,28 @@
 DeepFake detector, utilizing Machine learning algorithm(s)
 
 ## Selecting an Architectural Model
-### CNNs (Convolutional Neural Networks)
-Excellent for learning spatial features in images. Popular architectures include ResNet, EfficientNet, VGG, and MobileNet. You can adapt these pre-trained models using transfer learning, which can significantly speed up training and improve performance, especially with limited data.   
-### RNNs (Recurrent Neural Networks)
-Especially LSTMs (Long Short-Term Memory) or GRUs (Gated Recurrent Units): Useful for processing sequential data like video frames to capture temporal dependencies and inconsistencies in motion.   
-### Transformers
-Increasingly being used for video analysis and can capture long-range dependencies in sequences of frames.   
-### Hybrid Architectures
-Combining CNNs for spatial feature extraction with RNNs or Transformers for temporal analysis
+### 3D Convolutional Neural Networks (3D CNNs)
+Unlike 2D CNNs that operate on individual frames, 3D CNNs apply 3D convolutional filters that can learn spatiotemporal features directly from a sequence of video frames. The filters move across the spatial dimensions (height and width) and the temporal dimension (number of frames).
+#### Common Architectures:
+- **C3D (Convolutional 3D Network):** One of the pioneering 3D CNN architectures.
+- **I3D (Inflated 3D ConvNet):** Starts with pre-trained 2D CNN filters (like Inception) and inflates them into 3D, often leading to better performance due to strong initialization.
+- **R(2+1)D:** Decomposes the 3D convolution into separate 2D spatial convolutions and 1D temporal convolutions, which can be more parameter-efficient and easier to train.
+### Recurrent Neural Networks (RNNs) and their variants (LSTMs and GRUs)
+RNNs are designed to process sequential data. For video, you can extract spatial features from each frame using a 2D CNN (as a feature extractor) and then feed these frame-level features into an RNN to model the temporal relationships between frames.
+#### Common Architectures:
+- **CNN + LSTM:** A very popular approach where a CNN (e.g., ResNet, EfficientNet) extracts features per frame, and an LSTM processes the sequence of these feature vectors.
+- **CNN + GRU:** Similar to CNN + LSTM but uses Gated Recurrent Units, which are often faster to train and can perform comparably in many tasks.
+- **Bi-directional LSTMs/GRUs:** Processing the temporal sequence in both forward and backward directions can provide more context.
+### Hybrid
+Combining the strengths of different architectures can often lead to improved performance.
+#### Examples:
+- **CNN + RNN (as mentioned above):** Leveraging CNNs for spatial feature extraction and RNNs for temporal modeling.
+- **CNN + Transformer:** Using CNNs for efficient feature extraction and Transformers for powerful temporal modeling.
+- **3D CNN + RNN/Transformer:** Using a 3D CNN to extract initial spatiotemporal features and then feeding these into an RNN or Transformer for further temporal reasoning.
+### Graph Neural Networks (GNNs)
+GNNs are designed to operate on graph-structured data. In the context of video, you could represent facial landmarks or other key points as nodes in a graph, and the relationships between them (e.g., distances, angles) as edges. The temporal evolution of these graphs can then be analyzed using GNNs.
+#### Common Architectures:
+- **Spatial-Temporal Graph Convolutional Networks (ST-GCN):** While primarily used for action recognition, the concept of modeling spatiotemporal relationships using graph convolutions could be adapted for analyzing facial movements in deepfakes.
 
 ## Relevant research material
 ### Youtube videos:
