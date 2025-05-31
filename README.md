@@ -9,8 +9,8 @@ Video/Image DeepFake detector utilizing machine learning algorithms. The purpose
 ## Relevant research material
 ### MesnoNet
 MesoNet: a Compact Facial Video Forgery Detection Network <br>
-[Github Project](https://www.youtube.com/watch?app=desktop&v=kYeLBZMTLjk&t=13s) <br>
-[YouTube video](https://github.com/kiteco/python-youtube-code/tree/master/Deepfake-detection) <br>
+[YouTube Project](https://www.youtube.com/watch?app=desktop&v=kYeLBZMTLjk&t=13s) <br>
+[Github video](https://github.com/kiteco/python-youtube-code/tree/master/Deepfake-detection) <br>
 [Study Notebook](https://colab.research.google.com/drive/1PARj0D7UTOufufxY-dL3EPpxM--ZR4QE?usp=sharing) <br>
 
 - [x] Test project on a Google Colab notebook
@@ -18,8 +18,8 @@ MesoNet: a Compact Facial Video Forgery Detection Network <br>
 - [ ] Set it up so it can predict input Videos/Images
 
 ### Deepfake detection using Deep Learning (ResNext and LSTM:
-[Github project](https://www.youtube.com/watch?app=desktop&v=O3_MypgLuvc) <br>
-[YouTube video](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning?tab=readme-ov-file) <br>
+[YouTube project](https://www.youtube.com/watch?app=desktop&v=O3_MypgLuvc) <br>
+[Github video](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning?tab=readme-ov-file) <br>
 
 - [ ] Test project on a Google Colab notebook
 - [ ] Create a Confusion Matrix and review
