@@ -17,7 +17,7 @@ MesoNet: a Compact Facial Video Forgery Detection Network <br>
 - [ ] Create a Confusion Matrix and review
 - [ ] Set it up so it can predict input Videos/Images
 
-### Deepfake detection using Deep Learning (ResNext and LSTM:
+### Deepfake detection using Deep Learning (ResNext and LSTM):
 [YouTube video](https://www.youtube.com/watch?app=desktop&v=O3_MypgLuvc) <br>
 [Github project](https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning?tab=readme-ov-file) <br>
 
