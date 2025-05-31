@@ -34,8 +34,8 @@ MesoNet: a Compact Facial Video Forgery Detection Network <br>
 - [ ] Set it up so it can predict input Videos/Images
 
 ### TechR_Task_6_5
-[Github project](https://github.com/Sourabh626/Deepfake_Detection/tree/main)
-[Study Notebook](https://colab.research.google.com/drive/1Ja4taQhaMr8qKutM9IEaAZTsZpYCpHYV?usp=sharing)
+[Github project](https://github.com/Sourabh626/Deepfake_Detection/tree/main) <br>
+[Study Notebook](https://colab.research.google.com/drive/1Ja4taQhaMr8qKutM9IEaAZTsZpYCpHYV?usp=sharing) <br>
 - [ ] Test project on a Google Colab notebook
 - [ ] Create a Confusion Matrix and review
 - [ ] Set it up so it can predict input Videos/Images
