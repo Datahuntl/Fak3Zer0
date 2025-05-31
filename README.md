@@ -14,7 +14,7 @@ MesoNet: a Compact Facial Video Forgery Detection Network <br>
 [Study Notebook](https://colab.research.google.com/drive/1PARj0D7UTOufufxY-dL3EPpxM--ZR4QE?usp=sharing) <br>
 
 - [x] Test project on a Google Colab notebook
-- [ ] Create a Confusion Matrix and review
+- [x] Create a Confusion Matrix and review
 - [ ] Set it up so it can predict input Videos/Images
 
 ### Deepfake detection using Deep Learning (ResNext and LSTM):
